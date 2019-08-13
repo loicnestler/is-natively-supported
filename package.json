@@ -9,6 +9,6 @@
 		"rollup": "^1.19.4"
 	},
 	"scripts": {
-		"build": "rollup lib/index.js --file dist/bundle.js --format amd"
+		"build": "rollup lib/index.js --file dist/bundle.js --format umd --name IsNativelySupported"
 	}
 }

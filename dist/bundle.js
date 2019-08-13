@@ -11,6 +11,6 @@ define(function () { 'use strict';
 		}
 	}
 
-	module.exports = IsNativelySupported;
+	return IsNativelySupported;
 
 });

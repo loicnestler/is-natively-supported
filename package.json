@@ -1,0 +1,14 @@
+{
+	"name": "is-natively-supported",
+	"version": "1.0.0",
+	"main": "dist/bundle.js",
+	"repository": "git@github.com:loicnestler/is-natively-supported.git",
+	"author": "loicnestler <loicnestler@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"rollup": "^1.19.4"
+	},
+	"scripts": {
+		"build": "rollup lib/index.js --file dist/bundle.js --format amd"
+	}
+}
